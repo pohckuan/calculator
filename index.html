@@ -6,41 +6,42 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   </head>
   <body>
-    <div id='input'>
+    <form name="calc" class="" action="index.html" method="post">
+      <input type="text" name="result" value="">
+    </form>
+
+    <div class="">
+
+      <button type="button" class="btn btn-primary num" value="7">7</button>
+      <button type="button" class="btn btn-primary num" value="8">8</button>
+      <button type="button" class="btn btn-primary num" value="9">9</button>
+      <button type="button" class="btn btn-primary num" value="/">/</button>
 
     </div>
     <div class="">
 
-      <button type="button" class="btn btn-primary num">7</button>
-      <button type="button" class="btn btn-primary num">8</button>
-      <button type="button" class="btn btn-primary num">9</button>
-      <button type="button" class="btn btn-primary num">/</button>
-
-    </div>
-    <div class="">
-
-      <button type="button" class="btn btn-primary num">4</button>
-      <button type="button" class="btn btn-primary num">5</button>
-      <button type="button" class="btn btn-primary num">6</button>
-      <button type="button" class="btn btn-primary num">x</button>
-
-    </div>
-
-    <div class="">
-
-      <button type="button" class="btn btn-primary num">1</button>
-      <button type="button" class="btn btn-primary num">2</button>
-      <button type="button" class="btn btn-primary num">3</button>
-      <button type="button" class="btn btn-primary num">-</button>
+      <button type="button" class="btn btn-primary num" value="4">4</button>
+      <button type="button" class="btn btn-primary num" value="5">5</button>
+      <button type="button" class="btn btn-primary num" value="6">6</button>
+      <button type="button" class="btn btn-primary num" value="*">x</button>
 
     </div>
 
     <div class="">
 
-      <button type="button" class="btn btn-primary num">0</button>
-      <button type="button" class="btn btn-primary num">.</button>
-      <button type="button" class="btn btn-primary num">=</button>
-      <button type="button" class="btn btn-primary num">+</button>
+      <button type="button" class="btn btn-primary num" value="1">1</button>
+      <button type="button" class="btn btn-primary num" value="2">2</button>
+      <button type="button" class="btn btn-primary num" value="3">3</button>
+      <button type="button" class="btn btn-primary num" value="-">-</button>
+
+    </div>
+
+    <div class="">
+
+      <button type="button" class="btn btn-primary num" value="0">0</button>
+      <button type="button" class="btn btn-primary num" value=".">.</button>
+      <button type="button" class="btn btn-primary num" onClick=calculate()>=</button>
+      <button type="button" class="btn btn-primary num" value="+">+</button>
       <button type="button" class="btn btn-primary clear">C</button>
 
 
