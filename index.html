@@ -2,50 +2,56 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Javascript Calculator</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <form name="calc" class="" action="index.html" method="post">
+    <h1>Javascript Calculator</h1>
+    <form class="calculator">
       <input type="text" name="result" value="">
-    </form>
 
-    <div class="">
-
-      <button type="button" class="btn btn-primary num" value="7">7</button>
-      <button type="button" class="btn btn-primary num" value="8">8</button>
-      <button type="button" class="btn btn-primary num" value="9">9</button>
-      <button type="button" class="btn btn-primary num" value="/">/</button>
-
-    </div>
-    <div class="">
-
-      <button type="button" class="btn btn-primary num" value="4">4</button>
-      <button type="button" class="btn btn-primary num" value="5">5</button>
-      <button type="button" class="btn btn-primary num" value="6">6</button>
-      <button type="button" class="btn btn-primary num" value="*">x</button>
-
+    <div class="row">
+      <button type="button" class="clear">C</button>
+      <button type="button" name="button" onClick=backspace()>&#8592;</button>
     </div>
 
-    <div class="">
+    <div class="row">
 
-      <button type="button" class="btn btn-primary num" value="1">1</button>
-      <button type="button" class="btn btn-primary num" value="2">2</button>
-      <button type="button" class="btn btn-primary num" value="3">3</button>
-      <button type="button" class="btn btn-primary num" value="-">-</button>
+      <button type="button" class="num" value="7">7</button>
+      <button type="button" class="num" value="8">8</button>
+      <button type="button" class="num" value="9">9</button>
+      <button type="button" class="num" value="/">/</button>
+
+    </div>
+    <div class="row">
+
+      <button type="button" class="num" value="4">4</button>
+      <button type="button" class="num" value="5">5</button>
+      <button type="button" class="num" value="6">6</button>
+      <button type="button" class="num" value="*">x</button>
 
     </div>
 
-    <div class="">
+    <div class="row">
 
-      <button type="button" class="btn btn-primary num" value="0">0</button>
-      <button type="button" class="btn btn-primary num" value=".">.</button>
-      <button type="button" class="btn btn-primary num" onClick=calculate()>=</button>
-      <button type="button" class="btn btn-primary num" value="+">+</button>
-      <button type="button" class="btn btn-primary clear">C</button>
+      <button type="button" class="num" value="1">1</button>
+      <button type="button" class="num" value="2">2</button>
+      <button type="button" class="num" value="3">3</button>
+      <button type="button" class="num" value="-">-</button>
+
+    </div>
+
+    <div class="row">
+
+      <button type="button" class="num" value="0">0</button>
+      <button type="button" class="num" value=".">.</button>
+      <button type="button" class="num" onClick=calculate()>=</button>
+      <button type="button" class="num" value="+">+</button>
 
 
     </div>
+  </form>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="app.js">

@@ -1,0 +1,30 @@
+body{
+  width:200px;
+  vertical-align: middle;
+  margin: auto;
+}
+
+form{
+  text-align: center;
+  background-color: blue;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-radius: 10px;
+}
+
+button{
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+}
+
+input{
+  text-align: right;
+  margin-bottom: 5px;
+}
+
+.row{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
